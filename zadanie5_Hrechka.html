@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <script type="text/javascript">
+    document.write("Wykonał: Artem Hrechka mój numer w dzieniku to 5, czyli mam układ [(5) mod 4 = 1] układ 1".fontcolor("red").fontsize(7) + "<br>");
+
+    function WinOpen_Hrechka1() {
+      var w1 = window.open("", "okienko_z1", "toolbar=no,directories=no,menubar=no,height=380,width=160,top=450,left=300");
+      w1.document.write("<b>KOT POTRZEBUJE POMOCY</b><br><img src='sum.gif' width='140'>");
+    }
+
+    function WinOpen_Hrechka2() {
+      var w2 = window.open("", "okienko_z2", "toolbar=no,directories=no,menubar=no,height=380,width=160,top=450,left=480");
+      w2.document.write("<b>LECIMY NA POMOC!</b><br><img src='obraz1.gif' width='140'>");
+    }
+
+    function WinOpen_Hrechka3() {
+      var w3 = window.open("", "okienko_z3", "toolbar=no,directories=no,menubar=no,height=380,width=160,top=450,left=660");
+      w3.document.write("<b>PORA GRAC!</b><br><img src='spi.gif' width='140'>");
+    }
+
+    function WinOpen_Hrechka4() {
+      var w4 = window.open("", "okienko_z4", "toolbar=no,directories=no,menubar=no,height=380,width=160,top=450,left=840");
+      w4.document.write("<b>JUZ PO SPRAWIE</b><br><img src='kot.gif' width='140'>");
+    }
+
+    function okno_zamknij_Hrechka() {
+      window.close();
+    }
+  </script>
+</head>
+<body>
+  <input type="button" value="grafika1" onclick="WinOpen_Hrechka1()">
+  <input type="button" value="grafika2" onclick="WinOpen_Hrechka2()">
+  <input type="button" value="grafika3" onclick="WinOpen_Hrechka3()">
+  <input type="button" value="grafika4" onclick="WinOpen_Hrechka4()">
+  <br><br>
+  <input type="button" value="zamknij okno" onclick="okno_zamknij_Hrechka()"/>
+</body>
+</html>
